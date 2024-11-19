@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+
+.InputArea {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.ListArea{
+  color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 15;
+  outline: black;
+  outline-style: solid;
+  min-width: 500px;
+  background-color: white;
+}
+
+.TaskName{
+  font-size: 30px;
+  text-align: center;
+  outline: black;
+  outline-style: solid;
+}
+
+
+.TaskDescription {
+  font-size: 15;
+  text-align: left;
+  min-height: 1000;
+  
+
+ 
+
+}
